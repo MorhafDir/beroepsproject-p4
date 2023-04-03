@@ -1,0 +1,276 @@
+/* text font*/
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+  }
+  
+  /* achtergrond Kleur*/
+  .content {
+  padding: 20px;
+  background: orange;
+  }
+  
+  /* fixed bar */
+  .fixedbar {
+  position: fixed;
+  width: 165em;
+  height: auto;
+  position: fixed;
+  top: 10;
+  width: 100%;
+  }
+  
+  
+  /*top text */
+  .header {
+    padding: 5px;
+    text-align: left;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+  /* logo bar  */
+  
+  .topnav {
+  overflow: hidden;
+  background-color: grey;
+  border-style: solid;
+  font-size: 30px;
+  
+  }
+  
+  .topnav a {
+  float: left;
+  width: 20%;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  
+  .topnav a:hover {
+  background-color: orange;
+  color: black;
+  }
+  
+  .topnav a.active {
+  background-color: gray;
+  color: white;
+  color: black;
+  }
+  
+  .topnav .search-container {
+  float: right;
+  margin: 1em;
+  font-size: 30px;
+  }
+  
+  
+  /* logo */
+  .logo {
+  float: left;
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  
+  /* dropdown menu en balk */
+  .menu-nav {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  }
+  
+  .menu-item:nth-child(4){
+  background-color: darkorange;
+  }
+  
+  .menu-item {
+  color: white;
+  padding: 3px;
+  }
+  
+  /* dropdown menu shop */
+  
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px white;
+  padding: 12px 16px;
+  z-index: 1;
+  text-decoration: underline;
+  }
+  
+  .dropdown-link:hover{
+  border: 23px;
+  display: inline-block;
+  background-color: aqua;
+  color: red;
+  }
+  
+  
+  .menu-item {
+  position: relative;
+  display: inline-block;
+  }
+  
+  .menu-item:hover .dropdown-content {
+  display: block;
+  }
+  
+  
+  
+  .dropdown-link {
+  display: block;
+  color: black;
+  }
+  
+  .menu-item:hover {
+  background-color: darkorange;
+  }
+  /* motto */
+  .textcolorbruh {
+  font-size: 50px;
+  
+  }
+  
+  
+  
+  
+  .three-dots:after {
+  cursor: pointer;
+  color: white;
+  content: '\2807';
+  font-size: 20px;
+  padding: 0 5px;
+  }
+  
+  a {
+  text-decoration: none;
+  color: white;
+  }
+  
+  a div {
+  padding: 2px;
+  }
+  
+  .dropdown {
+  position: absolute;
+  right: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px white;
+  outline: none;
+  opacity: 0;
+  z-index: -1;
+  max-height: 0;
+  }
+  
+  .dropdown-container:focus {
+  outline: none;
+  }
+  
+  .dropdown-container:focus .dropdown {
+  opacity: 1;
+  z-index: 100;
+  max-height: 100vh;
+  }
+  
+  /* search bar logotje */
+  .topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  }
+  
+  /* welcome 2 pc4you? */
+  .fixedinhoud {
+  margin-top: 470px;
+  }
+  
+  .watIs {
+  background-color: orange;
+  
+  padding: 1em 2em;
+  outline: none;
+  border-radius: 100px;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  font-size: larger;
+  font-style: italic;
+  margin: 20px;
+  font-size: 30px;
+  }
+  
+  
+  /* aanbieding + foto's om je verder te verwijzen */ 
+  
+  .banner{
+  margin-left: 200px;
+  
+  }
+  
+  .actie {
+  display: flex;
+  margin-left: 300px;
+  }
+  
+  .row {
+  display: flex;
+  }
+  
+  .actie-row {
+  flex: 25%;
+  margin: 30px;
+  }
+  
+  /* footer voor info etc */
+  .footer {
+  width: 100%;
+  background-color: orange;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  font-size: 25px;
+  }
+
+/* vraag form */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: orange;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 20px;
+  }

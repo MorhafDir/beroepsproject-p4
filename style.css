@@ -1,0 +1,218 @@
+/* text font*/
+body {
+  font-family: Arial;
+  background-color: grey;
+}
+
+/* achtergrond Kleur*/
+.content {
+padding: 20px;
+background: orange;
+}
+
+/* fixed bar */
+.fixedbar {
+position: fixed;
+top: 10;
+width: 100%;
+}
+
+
+/*top text */
+.header {
+  padding: 5px;
+  text-align: left;
+  background: white;
+  color: rgb(0, 0, 0);
+}
+/* logo bar  */
+
+.topnav {
+overflow: hidden;
+background-color: grey;
+border-style: solid;
+
+}
+
+.topnav a {
+float: left;
+width: 20%;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.topnav a:hover {
+background-color: orange;
+color: black;
+}
+
+.topnav a.active {
+background-color: gray;
+color: white;
+color: black;
+}
+
+.topnav .search-container {
+float: right;
+margin: 1em;
+}
+
+
+/* logo */
+.logo {
+float: left;
+width: 20%;
+margin-left: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+/* dropdown menu en balk */
+.menu-nav {
+background-color: grey;
+display: flex;
+justify-content: space-between;
+}
+
+.menu-item:nth-child(1){
+background-color: darkorange;
+}
+
+.menu-item {
+color: white;
+padding: 3px;
+}
+
+/* dropdown menu shop */
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: white;
+min-width: 500px;
+box-shadow: 0px 8px 16px 0px white;
+padding: 12px 16px;
+z-index: 1;
+text-decoration: underline;
+}
+
+.dropdown-link:hover{
+border: 23px;
+display: inline-block;
+background-color: aqua;
+color: red;
+}
+
+
+.menu-item {
+position: relative;
+display: inline-block;
+}
+
+.menu-item:hover .dropdown-content {
+display: block;
+}
+
+
+
+.dropdown-link {
+display: block;
+color: black;
+}
+
+.menu-item:hover {
+background-color: darkorange;
+}
+
+.three-dots:after {
+cursor: pointer;
+color: white;
+content: '\2807';
+padding: 0 5px;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+a div {
+padding: 2px;
+}
+
+.dropdown {
+position: absolute;
+right: 10px;
+background-color: white;
+box-shadow: 0px 0px 3px 3px white;
+outline: none;
+opacity: 0;
+z-index: -1;
+max-height: 0;
+}
+
+.dropdown-container:focus {
+outline: none;
+}
+
+.dropdown-container:focus .dropdown {
+opacity: 1;
+z-index: 100;
+}
+
+/* search bar logotje */
+.topnav input[type=text] {
+padding: 6px;
+margin-top: 8px;
+border: none;
+}
+
+/* welcome 2 pc4you? */
+.fixedinhoud {
+margin-top: 250px;
+}
+
+.watIs {
+background-color: orange;
+
+padding: 1em 2em;
+outline: none;
+border-radius: 100px;
+text-align: center;
+border-color: black;
+border-style: solid;
+font-style: italic;
+margin: 20px;
+}
+
+
+/* aanbieding + foto's om je verder te verwijzen */ 
+
+.actie {
+display: flex;
+margin-left: 300px;
+}
+
+.row {
+display: flex;
+justify-content: space-around;
+}
+
+.actie-row {
+display: flex;
+justify-content: space-around;
+flex: 2%;
+margin: 3px;
+}
+
+/* footer voor info etc */
+.footer {
+width: 100%;
+background-color: orange;
+color: black;
+text-align: center;
+border-style: solid;
+}
